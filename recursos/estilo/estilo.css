@@ -1,0 +1,54 @@
+<STYLE type="text/css">
+<!--
+   H1 { color: red }
+   P  { color: black}
+   -->
+   
+     body {
+	color: black;
+	background-color: #929F97;
+ 	margin: 30px;
+	}
+	
+	a {
+		color:purple;
+		text-decoration:none;
+		}
+	
+	.prueba {
+		color:black;
+		font-family: Calibri, serif, sans-serif, Arial;
+		font-size: 12pt;
+		line-height: 115%
+		}
+		
+	.centrado_tabla{
+		text-align: center;
+	}
+	
+	.consola {
+		background-color: black;
+		color: white;
+		font-family: "Courier New", Courier, monospace;
+		font-size: 14px;
+		line-height: 1.5;
+		padding: 10px;
+		display: inline-block;
+	}
+	
+	pre{
+		font-family: sans-serif, serif, Arial, Calibri;
+		font-size: 10pt;
+		white-space: pre-wrap;
+  		word-wrap: break-word;
+	}
+
+	nav {
+  		position: fixed;
+  		top: 0;
+  		left: 0;
+  		width: 100%;
+ 		 background-color: #333;
+	}
+	
+</STYLE>
