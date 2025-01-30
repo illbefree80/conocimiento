@@ -1,0 +1,103 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+
+header {
+	width:100%;
+	height:34px;
+	box-shadow:1px 1px 5px #000;
+	font-family:Arial, Helvetica, sans-serif;
+	position:fixed;
+	background:#fff;
+}
+
+#menu{
+	width:70%;
+	padding-top:0px;
+	margin:auto;
+
+}
+
+#menu ul a{
+	color:#333;
+	background:#e1e1e1;
+	text-decoration:none;
+	font: 16px Verdana;
+	padding: 7px 7px 7px 7px;
+}
+
+#menu ul a:hover{
+	color:#2f2f2f;
+	background:#6e6e6e;
+}
+
+#main{
+	padding: 10px;
+	background:#B2BFC7;
+	/*height:2000px;*/
+	height:100%;
+}
+ul, ol {
+	list-style:none;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+
+	
+.nav > li {
+	float:left;
+}
+	
+.nav li a {
+	
+	color:#fff;
+	text-decoration:none;
+	padding:5px 5px;
+	display:block;
+}
+	
+.nav li a:hover {
+	background-color:#434343;
+}
+	
+.nav li ul {
+	display:none;
+	position:absolute;
+	border: 5px solid #7e7e7e; /* Cambia "blue" al color que desees */
+	box-sizing: border-box;
+	padding: 5px; /* Ajusta el valor de padding según tus preferencias */
+	z-index: 1;
+}
+	
+.nav li:hover > ul {
+	display:block;
+}
+	
+.nav li ul li {
+	position:relative;
+}
+	
+.nav li ul li ul {
+	right:-140px;
+	top:0px;
+	z-index: 2;
+}
+
+.consola {
+	background-color: black;
+	color: white;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 14px;
+	line-height: 1.5;
+	display: inline-block;
+	}
+
